@@ -250,13 +250,6 @@ body {
 
 .button:hover {
     background-color: #403b45;
+    transition: 0.4s;
 }
 
-.button__secondary {
-    border-color: #767676;
-    color: #767676;
-}
-
-.button__secondary:hover {
-    background-color: var(--gray-op);
-}
