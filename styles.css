@@ -253,8 +253,7 @@ body {
     transition: 0.4s;
 }
 .curr{
-    font-weight: 1000;
-    font-size:18px ;
+    font-weight:bolder;
 }
 
 .clink{
@@ -283,3 +282,25 @@ body {
     margin-left: 350px;
     margin-top: -50px;
 }
+.imgs{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+}
+.imgs img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    filter: drop-shadow(2px 2px 5px rgba(30, 0, 41, 0.5));
+
+}
+.skilltxt{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    color: #d4d4d4;
+    padding: 8px;
+    list-style-type: none;}
