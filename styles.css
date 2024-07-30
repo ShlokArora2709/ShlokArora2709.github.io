@@ -252,4 +252,34 @@ body {
     background-color: #403b45;
     transition: 0.4s;
 }
+.curr{
+    font-weight: 1000;
+    font-size:18px ;
+}
 
+.clink{
+    display: flex;
+}
+.links{
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+.link-text{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.link-text span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clink img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.link-icon{
+    margin-left: 350px;
+    margin-top: -50px;
+}
