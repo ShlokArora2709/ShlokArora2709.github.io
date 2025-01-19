@@ -1,0 +1,11 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #29272b;
+  color:#fff;
+  margin-left: 60px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
