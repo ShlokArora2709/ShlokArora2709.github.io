@@ -13,6 +13,16 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 const projects = {
   major: [
     {
+      name: "NoteCraft",
+      description: "Full-stack web app for academic notes generation with images and sharing",
+      tech: ["NextJS(TS)","DRF","Redis","Docker","Pinecone"],
+      image: images['NoteCraft'],
+      links: {
+        live: "https://notecraft-zi3w.onrender.com/",
+        github: "https://github.com/ShlokArora2709/NoteCraft"
+      }
+    },
+    {
       name: "DocWise",
       description: "Django web app for E-appointments, medical report processing, and a medical advice chatbot",
       tech: ["Django", "WebRTC", "TailwindCSS", "Google-GenAI"],
@@ -69,6 +79,15 @@ const projects = {
       links: {
         github: "https://github.com/ShlokArora2709/SnapShop",
         live: "https://snapshop-oqvt.onrender.com"
+      }
+    },
+    {
+      name: "ResuMaster",
+      description: "AI powered resume generator from LinkdIn and Github",
+      tech: ["ReactJS","DRF","Nubela","Redux"],
+      image: images["ResuMaster"],
+      links: {
+        github: "https://github.com/ShlokArora2709/ResuMaster"
       }
     },
     {
