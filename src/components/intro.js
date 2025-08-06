@@ -31,11 +31,7 @@ const Intro = () => {
         </h1>
         </div>
         <h2>
-          Passionate about transforming data into actionable insights, I thrive at the intersection of{" "}
-          <span className="hashtag">Data science and Machine learning.</span> With a knack for uncovering patterns and building
-          predictive models, I'm driven by the endless possibilities of{" "}
-          <span className="hashtag">Artificial intelligence.</span>
-          
+          I'm a <span className="hashtag">builder</span> at heart—curious, hands-on, and always chasing the next meaningful problem. I love turning abstract <span className="hashtag">AI concepts</span> into real, usable products that make a difference. Whether it's training models, crafting APIs, or deploying <span className="hashtag">full-stack systems</span>, I enjoy every step of the process. For me, tech is not just about writing code—it's about creating <span className="hashtag">impact</span> with intention and creativity.
         </h2>
         </div>
         <img src={logo} alt="nn" />
@@ -43,9 +39,9 @@ const Intro = () => {
       <br />
       <figure className="quote">
         <blockquote className="quote__text">
-          Attention is all you need
+          Talk is cheap. Show me the code.
         </blockquote>
-        <figcaption className="quote__author">8 people from Google</figcaption>
+        <figcaption className="quote__author">Linus Torvalds</figcaption>
       </figure>
     </>
   );
